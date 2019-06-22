@@ -4,6 +4,7 @@ import App from '@/layout/App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import store from './store'
+import '@/main.scss'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 ReactDOM.render(
