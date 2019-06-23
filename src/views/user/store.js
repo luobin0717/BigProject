@@ -3,8 +3,7 @@ const reducer = (state = {
 },action) => {
   const { type, data } = action;
   switch (type) {
-    case 'changeHomeBannerList':
-      return Object.assign({}, state, {homeBannerList: data});
+   
     default:
       return state;
   }

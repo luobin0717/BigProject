@@ -20,23 +20,23 @@ const App = () => (
     <footer className = "footer">
         <ul>
           <NavLink to = "/home">
-          <i class="iconfont icon-shouye2"></i>
+          <i className="iconfont icon-shouye2"></i>
             <p>首页</p>
           </NavLink>
           <NavLink to = "/choose">
-          <i class="iconfont icon-leimupinleifenleileibie2"></i>
+          <i className="iconfont icon-leimupinleifenleileibie2"></i>
             <p>选购</p>
           </NavLink>
           <NavLink to = "/find">
-          <i class="iconfont icon-leimupinleifenleileibie2"></i>
+          <i className="iconfont icon-leimupinleifenleileibie2"></i>
             <p>发现</p>
           </NavLink>
           <NavLink to = "/cart">
-          <i class="iconfont icon-ai-eye"></i>
+          <i className="iconfont icon-ai-eye"></i>
             <p>购物车</p>
           </NavLink>
           <NavLink to = "/user">
-          <i class="iconfont icon-gerenyonghutouxiang2"></i>
+          <i className="iconfont icon-gerenyonghutouxiang2"></i>
             <p>我的</p>
           </NavLink>
         </ul>

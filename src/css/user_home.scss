@@ -1,0 +1,48 @@
+@import '@/lib/reset.scss';
+
+
+.user_box{
+  @include flex();
+  @include rect(100%,auto);
+  .header{
+    @include rect(100%,1.5rem);
+    overflow: hidden;
+    .btnHome{
+      @include rect(.7rem,.3rem);
+      @include margin(.1rem);
+      border:0;font:.15rem/2 "";
+    }
+
+    .logo{
+      @include rect(100%,1rem);
+      display:block;
+      margin-top:.07rem;background-color: #ddd;
+    }
+  }
+
+  .content{
+//  轮播图
+    .banner{
+      @include rect(100%,2rem);
+      margin-top:.4rem;
+      background-color: #ccc;
+    }
+
+// 去登陆  表单
+    .goLogin{
+      margin-top:.8rem;
+      @include flexbox();
+      // justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .phoneLogin,.phoneRegister{
+        @include rect(2.7rem,.4rem);
+        @include background-color(#AEADAD 100%);
+        margin-bottom:.2rem;
+        border:0;
+      }
+    
+    }
+
+  }
+}
