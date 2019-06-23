@@ -18,28 +18,28 @@ const App = () => (
       <Redirect to = '/home'/>
     </Switch>
     <footer className = "footer">
-        <ul>
+        <div className="footer-box">
           <NavLink to = "/home">
-          <i class="iconfont icon-shouye2"></i>
+          <i className="iconfont icon-xiao59"></i>
             <p>首页</p>
           </NavLink>
           <NavLink to = "/choose">
-          <i class="iconfont icon-leimupinleifenleileibie2"></i>
-            <p>选购</p>
+          <i className="iconfont icon-leimupinleifenleileibie--"></i>
+            <p>分类</p>
           </NavLink>
           <NavLink to = "/find">
-          <i class="iconfont icon-leimupinleifenleileibie2"></i>
+          <i className="iconfont icon-sousuo"></i>
             <p>发现</p>
           </NavLink>
           <NavLink to = "/cart">
-          <i class="iconfont icon-ai-eye"></i>
+          <i className="iconfont icon-gouwuche"></i>
             <p>购物车</p>
           </NavLink>
           <NavLink to = "/user">
-          <i class="iconfont icon-gerenyonghutouxiang2"></i>
+          <i className="iconfont icon-wode"></i>
             <p>我的</p>
           </NavLink>
-        </ul>
+        </div>
       </footer>
   </div>
 )

@@ -1,0 +1,57 @@
+@import '@/lib/reset.scss';
+.box{
+  .header{
+    @include rect(100%,1.56rem);
+    .header-t{
+      @include rect(100%,.88rem);
+      @include flexbox();
+      @include align-items();
+      .left{
+        @include flex();
+        @include flexbox();
+        @include justify-content();
+        @include align-items();
+        @include flex-direction(column);
+        i{
+          @include font-size(.36rem);
+        }
+        p{
+          @include font-size(.16rem);
+          @include text-color(#323232);
+        }
+      }
+      .content{
+        @include flex(4);
+        @include flexbox();
+        @include align-items();
+        @include justify-content();
+        height: .5rem;
+        border-radius: .4rem;
+        border:.02rem solid #999;
+      }
+      .right{
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        @include justify-content();
+        @include align-items();
+      }
+    }
+    .header-b{
+      @include rect(100%,.68rem);
+      ul{
+      @include rect(100%,100%);
+        @include flexbox();
+        @include justify-content(space-around);
+        @include align-items();
+        li{
+          @include text-color(#323232);
+          &.active{
+            padding: 0 .2rem .04rem;
+            border-bottom:.02rem solid #999; 
+          }
+        }
+      }
+    }
+  }
+}
