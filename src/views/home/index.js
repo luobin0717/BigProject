@@ -13,7 +13,9 @@ const mapDispatchToProps = (dispatch) => ({
         data
       })
     })
-  }
+  },
+
+
 })
 const App = connect(mapStateToProps, mapDispatchToProps)(UI)
 

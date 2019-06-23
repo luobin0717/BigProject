@@ -13,7 +13,7 @@ html, body, #root, .container {
     @include flex-direction(column);
   }
   .footer {
-    @include rect(100%, 0.5rem);
+    @include rect(100%, 1rem);
     @include background-color(#737373);
     ul {
       @include rect(100%, 100%);
