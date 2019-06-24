@@ -66,13 +66,13 @@ class App extends React.Component {
           </from>
         </div>
         {/* footer 一键登录 */}
-        <footer className="oauth">
+        <div className="oauth">
           <h3 className="title">一键登录</h3>
           <div class="twoLogin">
             <img src="http://www.infatuation.top/haitao-img/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2img/QQ%E7%99%BB%E5%BD%95@3x.png" />
             <img src="http://www.infatuation.top/haitao-img/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2img/%E5%BE%AE%E4%BF%A1@3x.png" />
           </div>
-        </footer>
+        </div>
       </div>
     )
   }
