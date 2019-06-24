@@ -20,6 +20,7 @@ html, body, #root, .container {
     .footer-box {
       @include rect(100%, 100%);
       @include flexbox();
+      background: #fff;
       a {
         @include flex();
         @include rect(auto, 100%);
@@ -29,10 +30,12 @@ html, body, #root, .container {
         @include align-items();
         @include text-color(#333);
         i{
-          @include font-size(.40rem);
+          @include font-size(.48rem);
+          line-height: .5rem;
         }
         p{
-          @include font-size(.24rem);
+          @include font-size(.22rem);
+          line-height: .28rem;
           @include text-color(#323232);
         }
         &.active {

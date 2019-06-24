@@ -1,5 +1,5 @@
 const reducer = (state = {
-  homeBannerList: []
+  homeBannerList: [1,2]
 },action) => {
   const { type, data } = action;
   switch (type) {

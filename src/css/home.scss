@@ -1,5 +1,6 @@
 @import '@/lib/reset.scss';
 .box{
+  background: #fff;
   .header{
     @include rect(100%,1.56rem);
     .header-t{
@@ -13,11 +14,12 @@
         @include align-items();
         @include flex-direction(column);
         i{
-          @include font-size(.36rem);
+          @include font-size(.36rem);         
         }
         p{
-          @include font-size(.16rem);
+          @include font-size(.2rem);
           @include text-color(#323232);
+          line-height: .24rem;
         }
       }
       .content{
@@ -35,6 +37,13 @@
         @include flex-direction(column);
         @include justify-content();
         @include align-items();
+        i{
+          @include font-size(.36rem);
+        }
+        p{
+          @include font-size(.2rem);
+          line-height: .24rem;
+        }
       }
     }
     .header-b{
@@ -46,11 +55,132 @@
         @include align-items();
         li{
           @include text-color(#323232);
+          @include font-size(.28rem);
           &.active{
             padding: 0 .2rem .04rem;
             border-bottom:.02rem solid #999; 
           }
         }
+      }
+    }
+  }
+  .content{
+    .bannerlist{
+      ul{
+        @include flexbox();
+        @include justify-content(space-around);
+        padding: .5rem 0 .2rem;
+        li{
+          text-align: center;
+          @include text-color(#323232);
+          @include font-size(.28rem);
+          &:nth-child(2){
+            .img1{
+              background-position:-1.82rem 0; 
+            }  
+          }
+          &:nth-child(3){
+            .img1{
+              background-position:-3.64rem 0; 
+            }  
+          }
+          &:nth-child(4){
+            .img1{
+              background-position:-5.46rem 0; 
+            }  
+          }
+          .img1{
+              @include rect(1.38rem,1.38rem);
+              background: url('http://www.infatuation.top/haitao-img/%E9%A6%96%E9%A1%B5img/%E5%9B%BE%E5%B1%828.png') no-repeat;
+          }
+          p{
+            margin-top:.25rem;
+          }
+        }
+      }
+    }
+    .discount{
+      .text{
+        @include rect(100%,.84rem);
+        text-align: center;
+        line-height: .84rem;
+        p{
+          &::before{
+            content: "";
+            display: block;
+            background: #999;
+            @include rect(.62rem, .02rem);
+            position: absolute;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            left: 2.42rem;
+          }
+          &::after{
+            content: "";
+            display: block;
+            background: #999;
+            @include rect(.62rem, .02rem);
+            position: absolute;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            right: 2.42rem;
+          }
+          @include font-size(.28rem);
+          position: relative;
+        }
+      }
+      ul{
+        @include flexbox();
+        @include justify-content(space-around);
+        li{
+          @include rect(1.88rem,2.36rem);
+          background: #999;
+        }
+      }
+    }
+    .proposal{
+      margin-top:.82rem; 
+      padding: 0 .32rem;
+      @include rect(100%,5.28rem);
+      .box{
+        @include rect(100%,100%);
+        background: #f2f2f2;
+        .top{
+          @include rect(100%, .7rem);
+          @include font-size(.3rem);
+          padding: 0 .12rem;
+          line-height: .7rem;
+          overflow: hidden;
+          p{
+            float: left;
+          }
+          span{
+            padding: 0 .42rem 0 0;
+            float: right;
+            background: url('http://www.infatuation.top/haitao-img/首页img/箭头.png') no-repeat right;
+            background-size: .16rem .3rem;
+          }
+        }
+        ul{
+          @include flexbox();
+          @include rect(100%,100%);
+          @include flex-wrap(wrap);
+          @include justify-content(space-between);
+          padding: 0 .16rem;
+          li{
+            @include rect(49%,47%);
+            background: red;
+          }
+        }
+      }
+    }
+    .guanggao{
+      @include rect(100%,1.4rem);
+      margin-top:.78rem;
+      img{
+        @include rect(100%,100%);
       }
     }
   }
