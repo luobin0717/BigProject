@@ -7,32 +7,31 @@ class App extends React.Component{
       <div className = "box">
         <header className = "choose-header">
           <div className="header-left">
-            <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E6%89%AB%E4%B8%80%E6%89%AB.png"/>
+            <i className="iconfont icon-saoyisao"/>
             <p>扫一扫</p>
           </div>
           <input type="text" placeholder="雅诗兰黛"/>
-          <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E6%90%9C%E7%B4%A2.png"/>
+          <i className="iconfont icon-iconfonticonfontsousuo1"/>
           <div className="header-right">
-            <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E6%B6%88%E6%81%AF.png"/>
+            <i className="iconfont icon-message"/>
             <p>消息</p>
           </div>
         </header>
         <div className = "choose-content">
           <div className="content-left">
             <ul>
-              <li><a className="active">为你推荐</a></li>
-              <li><a>品牌墙</a></li>
-              <li><a>美容彩妆</a></li>
-              <li><a>奶粉止尿裤</a></li>
-              <li><a>母婴专区</a></li>
-              <li><a>营养保健</a></li>
-              <li><a>数码家电</a></li>
-              <li><a>个人洗护</a></li>
-              <li><a>服饰鞋靴</a></li>
-              <li><a>运动户外</a></li>
-              <li><a>手表配饰</a></li>
-              <li><a>家具生活</a></li>
-
+              <li><a href="#" className="active">为你推荐</a></li>
+              <li><a href="#">品牌墙</a></li>
+              <li><a href="#">美容彩妆</a></li>
+              <li><a href="#">奶粉止尿裤</a></li>
+              <li><a href="#">母婴专区</a></li>
+              <li><a href="#">营养保健</a></li>
+              <li><a href="#">数码家电</a></li>
+              <li><a href="#">个人洗护</a></li>
+              <li><a href="#">服饰鞋靴</a></li>
+              <li><a href="#">运动户外</a></li>
+              <li><a href="#">手表配饰</a></li>
+              <li><a href="#">家具生活</a></li>
             </ul>
           </div>
           <div className="content-right">
@@ -40,39 +39,39 @@ class App extends React.Component{
               <h3>常用分类</h3>
               <ul>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
               </ul>
@@ -81,39 +80,39 @@ class App extends React.Component{
             <h3>常用分类</h3>
               <ul>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png" alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
                 <li>
-                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"/>
+                  <img src="http://www.infatuation.top/haitao-img/%E5%88%86%E7%B1%BBimg/%E5%BA%95%E5%A6%86@3x.png"alt=""/>
                   <p>防晒修复</p>
                 </li>
               </ul>
