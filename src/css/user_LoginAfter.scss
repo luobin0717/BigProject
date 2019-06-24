@@ -43,7 +43,8 @@
       &::after{content:"";@include rect(.72rem,.02rem);background-color: #000;position:absolute; right:30%;top:0;bottom:0;margin:auto;}
     }
     .guess{@include rect(100%,5.5rem);@include flexbox();flex-wrap:wrap;
-      li{@include rect(48%,100%);@include flexbox();flex-direction: column;align-items:center;
+      li{@include rect(50%,100%);padding:0 1%;@include flexbox();flex-direction: column;align-items:center;text-align:center;border-top:.01rem solid black;background-color:#fff;
+		&:nth-of-type(2n-1){border-right:.01rem solid black;}
       }
       img{@include rect(96%,3.3rem);
       }
