@@ -183,5 +183,87 @@
         @include rect(100%,100%);
       }
     }
+    .popular{
+      margin-top:.4rem; 
+      padding: 0 .32rem;
+      @include rect(100%,5.28rem);
+      .box{
+        @include rect(100%,100%);
+        background: #f2f2f2;
+        .text{
+          @include rect(100%, .7rem);
+          @include font-size(.3rem);
+          padding: 0 .12rem;
+          line-height: .7rem;
+          overflow: hidden;
+          p{
+            float: left;
+          }
+          span{
+            padding: 0 .42rem 0 0;
+            float: right;
+            background: url('http://www.infatuation.top/haitao-img/首页img/箭头.png') no-repeat right;
+            background-size: .16rem .3rem;
+          }
+        }
+        ul{
+          @include flexbox();
+          @include rect(100%,100%);
+          @include justify-content(space-around);
+          li{
+            @include rect(1.9rem,100%);
+            // text-align: center;
+            img{
+              @include rect(1.9rem,2.56rem);
+            }
+            p{
+              margin-top: .1rem;
+              @include font-size(.2rem);
+            }
+          }
+        }
+      }
+    }
+    .limited{
+      margin-top:.4rem; 
+      padding: 0 .32rem;
+      @include rect(100%,5.28rem);
+      .box{
+        @include rect(100%,100%);
+        background: #f2f2f2;
+        .text{
+          @include rect(100%, .7rem);
+          @include font-size(.3rem);
+          padding: 0 .12rem;
+          line-height: .7rem;
+          overflow: hidden;
+          p{
+            float: left;
+          }
+          span{
+            padding: 0 .42rem 0 0;
+            float: right;
+            background: url('http://www.infatuation.top/haitao-img/首页img/箭头.png') no-repeat right;
+            background-size: .16rem .3rem;
+          }
+        }
+        ul{
+          @include flexbox();
+          @include rect(100%,100%);
+          @include justify-content(space-around);
+          li{
+            @include rect(1.9rem,100%);
+            // text-align: center;
+            img{
+              @include rect(1.9rem,2.56rem);
+            }
+            p{
+              margin-top: .1rem;
+              @include font-size(.2rem);
+            }
+          }
+        }
+      }
+    }
   }
 }

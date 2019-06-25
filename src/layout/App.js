@@ -5,6 +5,7 @@ import Find from '@/views/find'
 import Choose from '@/views/choose'
 import LoginAfter from '@/views/user/LoginAfter'
 import User from '@/views/user'
+import Detail from '@/views/detail'
 
 import Cart from '@/views/cart'
 import '@/main.scss';
@@ -17,6 +18,7 @@ const App = () => (
       <Route path = '/find' component = { Find }/>
       <Route path = '/cart' component = { Cart }/>
       <Route path = '/user' component = { User }/>
+      <Route path = '/detail' component = { Detail }/>
       <Route path = '/LoginAfter' component = { LoginAfter }/>
 
       <Redirect to = '/home'/>

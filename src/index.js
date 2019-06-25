@@ -6,11 +6,13 @@ import { Provider } from 'react-redux'
 import store from './store'
 import '@/main.scss'
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
+import DetailApp from '@/layout/DetailApp'
 
 ReactDOM.render(
   <Provider store = { store }>
     <BrowserRouter>
         <Switch>
+        <Route path = '/detail' component = {DetailApp}/>
         <Route path = '/' component = { App }/>
         </Switch>
       </BrowserRouter>

@@ -2,7 +2,6 @@
 * { touch-action: pan-y }
 html, body, #root, .container {
   @include rect(100%, 100%);
-  
 }
 .container {
   @include flexbox();

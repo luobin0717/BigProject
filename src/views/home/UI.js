@@ -97,6 +97,62 @@ class App extends React.Component{
           <div className = "guanggao">
             <img src="http://www.infatuation.top/haitao-img/%E9%A6%96%E9%A1%B5img/%E5%9B%BE%E5%B1%8224@3x.png" alt = ""/>
           </div>
+          <div className = "popular">
+            <div className = "box">
+              <div className = "text">
+                <p>今日热门</p>
+                <span>更多</span>
+              </div>
+              <ul>
+                <li>
+                  <img src="/assets/popular.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+                <li>
+                  <img src="/assets/popular.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+                <li>
+                  <img src="/assets/popular.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className = "limited">
+            <div className = "box">
+              <div className = "text">
+                <p>限时抢</p>
+                <span>更多</span>
+              </div>
+              <ul>
+                <li>
+                  <img src="/assets/limited.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+                <li>
+                  <img src="/assets/limited.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+                <li>
+                  <img src="/assets/limited.png" alt = ""/>
+                  <p>补充钙铁锌维生素D，
+                  促进钙吸收，成人中
+                  老年补钙...</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     )
