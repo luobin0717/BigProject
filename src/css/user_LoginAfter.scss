@@ -1,0 +1,53 @@
+@import '@/lib/reset.scss';
+
+.userAfter_box{background-color:#f2f2f2; flex:1; @include rect(auto,100%);overflow: auto;
+  .header{
+    &::after{content:"";display: block;@include rect(auto,2.15rem);background-color: #fff;}
+    // overflow: hidden;
+    position:relative;
+    .userImg{
+      .email{background-color: #fff;border:0;font-size:.38rem;position:absolute;left:.15rem;top:.15rem;
+      }
+      .setting{ background-color: #fff; border:0;font-size:.38rem;position:absolute; right:.15rem;top:.15rem;
+      }
+      .userImgs{ @include rect(1.1rem,1.1rem);position:absolute;left:0;right:0;margin:auto;margin-top:.5rem;
+      }
+      .userName{
+        @include rect(1.1rem,1.1rem);position:absolute;left:0;right:0;margin:auto;margin-top:2rem;line-height:.1rem;
+      }
+    }
+  }
+  .integral{margin:0 auto; margin-top:.13rem;@include rect(6.86rem,1.30rem); @include background-color(#fff);
+    ul{@include flexbox();@include rect(100%,100%);align-items:center;text-align:center;
+      li{ @include flex();}
+    }
+  }
+
+  .indent{ @include rect(6.86rem,auto); margin:0 auto;margin-top:.2rem;
+    h3{text-indent:.5rem;}
+    .payment,.site{ margin:0 auto;margin-top:.2rem; @include background-color(#fff);@include rect(6.86rem,1.30rem);
+      ul{@include flexbox();@include rect(100%,100%);align-items:center; text-align:center;
+        li{ @include flex();@include flexbox();flex-direction:column;
+          i{ @include flexbox();justify-content: center; align-items:center;@include rect(.8rem,.8rem);margin:0 auto;border-radius:50%;
+            img{@include rect(.65rem,.65rem);}
+          }
+        }
+      }
+    }
+  }
+
+  .content{
+    @include background-color(#fff);height:11rem;
+    h3{text-align:center;font:.3rem/.85rem "";position:relative;background-color: #f2f2f2;
+      &::before{content:"";@include rect(.72rem,.02rem);background-color: #ababab; position:absolute; left:30%;top:0;bottom:0;margin:auto;}
+      &::after{content:"";@include rect(.72rem,.02rem);background-color: #ababab;position:absolute; right:30%;top:0;bottom:0;margin:auto;}
+    }
+    .guess{@include rect(100%,5.5rem);@include flexbox();flex-wrap:wrap;
+      li{@include rect(50%,100%);padding:0 1%;@include flexbox();flex-direction: column;align-items:center;text-align:center;border-top:.01rem solid #ababab;background-color:#fff;
+		&:nth-of-type(2n-1){border-right:.01rem solid #ababab;}
+      }
+      img{@include rect(96%,3.3rem);
+      }
+    }
+  }
+}

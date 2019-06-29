@@ -1,0 +1,40 @@
+@import '@/lib/reset.scss';
+
+
+.user_box{@include overflow(auto);@include flex(); @include rect(100%,auto);
+  .header{ @include rect(100%,3rem); overflow: hidden;
+    .btnHome{ @include rect(1.4rem,.6rem);@include margin(.2rem); border:0;font:.3rem/2 ""; @include background-color(#fff)
+    }
+
+    .logo{ @include rect(2.06rem,2.04rem);display:block;margin:0 auto;
+    }
+  }
+
+  .content{
+//  轮播图
+    .banner{margin-top:.4rem;
+      img{@include rect(100%,3.42rem);
+      }
+    }
+
+// 去登陆  表单
+    .goLogin{margin-top:1.07rem; @include flexbox();align-items: center;flex-direction: column;.phoneLogin,.phoneRegister{@include rect(3.76rem,.7rem);@include background-color(#ff5524);@include text-color(#fff);@include border-radius(.35rem);
+    margin-bottom:.4rem; border:0;
+      }
+    }
+  }
+  // footer
+  .oauth{ margin-bottom:1.94rem;
+    .title{ position:relative; margin-top:1.46rem; @include text-align(center); @include font-size(.27rem);letter-spacing: .1rem;
+      &::before,&::after{content:""; position:absolute; @include rect(35%,.02rem); @include background-color(#eceff6);top:.135rem;
+      }
+      &::before{left:.1rem;}
+      &::after{right:.1rem;}
+    }
+    .twoLogin{ @include flexbox();justify-content: space-around;
+      img{ @include display(block); @include rect(1.2rem,1.2rem); margin-top:.41rem;
+      }
+    }
+  }
+
+}
