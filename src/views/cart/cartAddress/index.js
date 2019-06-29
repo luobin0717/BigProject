@@ -1,4 +1,4 @@
- import { connect } from 'react-redux';
+import { connect } from 'react-redux';
 import UI from './UI';
 
 const mapStateToProps = (state) => ({
@@ -12,11 +12,8 @@ const mapDispatchToProps = (dispatch) => ({
         type:'changeHomeBannerList',
         data
       })
-      console.log(data)
     })
-  },
-
-
+  }
 })
 const App = connect(mapStateToProps, mapDispatchToProps)(UI)
 

@@ -2,9 +2,9 @@ import React from 'react';
 import Banner from '@/components/home/Banner';
 import '@/css/home.scss';
 class App extends React.Component{
-  componentDidMount () {
-    this.props.getHomeBannerListData()
-  }
+  componentDidMount (data) {
+    this.props. getHomeBannerListData();
+ }
   render () {
     console.log(this)
     return (

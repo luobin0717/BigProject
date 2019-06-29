@@ -2,6 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://47.100.56.28",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -137,6 +138,7 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.0",
+    "http-proxy-middleware": "^0.19.1",
     "node-sass": "^4.12.0"
   }
 }
