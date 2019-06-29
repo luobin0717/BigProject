@@ -1,11 +1,10 @@
 const reducer = (state = {
-  KindList: []
+  homeBannerList: []
 },action) => {
   const { type, data } = action;
   switch (type) {
-    case 'changeKindList':
-      // console.log(data)
-      return Object.assign({}, state, {KindList: data});
+    case 'changeHomeBannerList':
+      return Object.assign({}, state, {homeBannerList: data});
     default:
       return state;
   }

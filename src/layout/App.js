@@ -4,6 +4,7 @@ import Home from '@/views/home'
 import Find from '@/views/find'
 import Choose from '@/views/choose'
 import LoginAfter from '@/views/user/LoginAfter'
+import CartAddress from '@/views/cart/cartAddress'
 import User from '@/views/user'
 
 import Cart from '@/views/cart'
@@ -18,7 +19,7 @@ const App = () => (
       <Route path = '/cart' component = { Cart }/>
       <Route path = '/user' component = { User }/>
       <Route path = '/LoginAfter' component = { LoginAfter }/>
-
+      <Route path = '/CartAddress' component = { CartAddress }/>
       <Redirect to = '/home'/>
     </Switch>
     <footer className = "footer">
