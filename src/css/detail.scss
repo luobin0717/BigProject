@@ -71,10 +71,22 @@ html, body, #root, .detail {
           font: .2rem/.48rem "";
           // line-height: .38rem;
           width: 3.4rem;
+          @include font-size(.2rem);
         }
         span{
           @include font-size(.28rem);
           color: #f51313;
+        }
+      }
+      .right{
+        .praise{
+          border-left:.02rem solid  #999;
+          padding-left:.3rem; 
+          margin-top:.21rem;
+          @include font-size(.3rem); 
+        }
+        i{
+          @include font-size(.2rem);
         }
       }
     }
