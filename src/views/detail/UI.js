@@ -22,7 +22,19 @@ class App extends React.Component{
           <div className = "banner">
             <img src = "/assets/banner1.png" alt = ""/>
           </div>
-          <div className =""></div>
+          <div className = "title">
+            <div className = "left">
+              <p>美国进口Schiff MoveFree氨基葡萄糖，红瓶170粒*2</p>
+              <span>￥399.00</span>
+            </div>
+            <div className = "right">
+              <div className = "praise">
+                <p>99%</p>
+                <span>好评率</span>
+              </div>
+              <i>购买最高得200积分</i>
+            </div>
+          </div>
         </div>
       </div>
     )

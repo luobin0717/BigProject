@@ -60,5 +60,23 @@ html, body, #root, .detail {
         @include rect(100%,100%);
       }
     }
+    .title{
+      padding: 0 .6rem 0 .44rem;
+      @include flexbox();
+      @include justify-content(space-between);
+      border-top:.02rem solid #ccc;
+      margin-top:.26rem;
+      .left{
+        p{
+          font: .2rem/.48rem "";
+          // line-height: .38rem;
+          width: 3.4rem;
+        }
+        span{
+          @include font-size(.28rem);
+          color: #f51313;
+        }
+      }
+    }
   }
 }
